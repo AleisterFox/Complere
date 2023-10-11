@@ -18,7 +18,7 @@
 <body onload=menuDisplay()>
     <header id="header">
         <nav>
-            <a href="index.html">
+            <a href="index.php">
                 <figure>
                     <img src="img/logo_mini.png" alt="Complere Logo">
                 </figure>
@@ -28,21 +28,21 @@
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Compliance <i class="fa-solid fa-chevron-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="corporative.html">Compliance Corporativo</a>
-                        <a href="training.html">Capacitación en Compliance</a>
+                        <a href="corporative.php">Compliance Corporativo</a>
+                        <a href="training.php">Capacitación en Compliance</a>
                     </div>
                 </li>
-                <li><a href="complaints.html">Canal de denuncias</a></li>
-                <li><a href="services.html">Servicios legales</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="complaints.php">Canal de denuncias</a></li>
+                <li><a href="services.php">Servicios legales</a></li>
+                <li><a href="contact.php">Contacto</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
     </header>
     <main>
         <section id="hero">
-            <img src="img/hero.jpg" alt="Abogado en traje">
-            <div class="container">
+            <img class="fadeIn wow" src="img/hero.jpg" alt="Abogado en traje">
+            <div class="container fadeInUp wow">
                 <figure>
                     <img loading="lazy" src="img/Logotipo Principal-02.png" alt="Logotipo">
                 </figure>
@@ -52,29 +52,29 @@
             </div>
         </section>
         <section id="us">
-            <p class="quotes">“</p>
-            <h3>Somos una firma con más de 20 años de experiencia.</h3>
+            <p class="quotes fadeIn wow">“</p>
+            <h3 class="fadeIn wow">Somos una firma con más de 20 años de experiencia.</h3>
             <div class="container">
-                <figure>
+                <figure class="fadeInLeft wow">
                     <img loading="lazy" src="img/us.jpg" alt="Equipo de trabajo en una reunión">
                 </figure>
-                <div class="description">
+                <div class="description fadeInRight wow">
                     <h2>Nosotros</h2>
                     <p>Ofrecemos servicios jurídicos integrales en Compliance y derecho corporativo a particulares,
                         pymes y entidades públicas, mediante la construcción de soluciones y criterios legales
                         respaldados en una constante actualización, conocimiento y madurez, privilegiando la
                         implementación de estrategias preventivas.</p>
-                    <a href="about.html" class="button button_gold">Leer más</a>
+                    <a href="about.php" class="button button_gold">Leer más</a>
                 </div>
             </div>
         </section>
         <section id="services">
-            <div class="container">
+            <div class="container slideInLeft wow">
                 <h2>Servicios</h2>
                 <p>Nuestra estructura compacta y esquema de servicios, nos permite ofrecer atención personalizada y
                     exclusiva.</p>
             </div>
-            <div class="services">
+            <div class="services slideInRight wow">
                 <div class="service">
                     <img loading="lazy" src="img/corporativo.jpg" alt="Abogado dando la mano a cliente">
                     <div class="fg"></div>
@@ -102,7 +102,7 @@
             </div>
         </section>
         <section id="ceo">
-            <div class="container">
+            <div class="container  fadeInLeft wow">
                 <h3>Director General</h3>
                 <h2>Eliseo Gordillo Alvarez</h2>
                 <p class="quotes mini">“</p>
@@ -118,8 +118,8 @@
                 </figure>
             </div>
 
-            <h2>Contáctanos</h2>
-            <form action="">
+            <h2 class="fadeInUp wow">Contáctanos</h2>
+            <form class="fadeInUp wow" action="">
                 <input id="name" name="name" type="text" placeholder="Nombre">
                 <input id="lastname" name="lastname" type="text" placeholder="Apellidos">
                 <input id="email" name="email" type="email" placeholder="Correo">
@@ -132,7 +132,7 @@
             </form>
         </section>
         <section id="location">
-            <div class="container">
+            <div class="container slideInLeft wow">
                 <h2>Ubicación</h2>
                 <div class="address">
                     <i class="fa-solid fa-location-dot"></i>
@@ -142,7 +142,7 @@
                     Cómo llegar <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-            <iframe
+            <iframe class="slideInRight wow"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Periferico%20Carlos%20Pellicer%20Camara%20204,%20Tabasco%202000%20Villa%20hermosa,%20Tabasco,%2086035,%20MX.+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </section>
     </main>

@@ -18,30 +18,9 @@
 <body onload=menuDisplay()>
     <div include-html="header.html"></div>
     <main>
-        <section id="complaints">
-            <img src="img/complaints.jpg" alt="Dos abogadas revisando documentos">
-            <h1>Canal de denuncias</h1>
-            <p>Nuestro Canal de Denuncias es un instrumento de comunicación para elevar a la alta dirección de manera anónima, confidencial y segura, cualquier irregularidad, permitirá que sus empleados, clientes y proveedores puedan informar fraudes y situaciones anómalas que ocurran dentro del ámbito de su empresa o bien expresar ideas para mejorar los procesos internos de la organización.</p>
-
-            <div class="socials">
-                <div class="ig">
-                    <img src="icons/ig2.png" alt="icono de instagram">
-                    <p>@complerecomplianceconsulting</p>
-                </div>
-                <div class="fb">
-                    <img src="icons/fb2.png" alt="icono de facebook">
-                    <p>Complere Compliance Consulting</p>
-                </div>
-                <div class="ln">
-                    <img src="icons/ln2.png" alt="icono de linkedin">
-                    <p>Complere Compliance Consulting</p>
-                </div>
-            </div>
-        </section>
-        
         <section id="contact" style="margin-top: 0; padding-top: 15rem;">
-            <h2>Haz tu denuncia</h2>
-            <form action="">
+            <h2 class="fadeInUp wow" id="contact-page">Contáctanos</h2>
+            <form class="fadeInUp wow" action="">
                 <input id="name" name="name" type="text" placeholder="Nombre">
                 <input id="lastname" name="lastname" type="text" placeholder="Apellidos">
                 <input id="email" name="email" type="email" placeholder="Correo">
@@ -52,6 +31,20 @@
                 </div>
                 <a href="" class="button button_gold">Enviar</a>
             </form>
+        </section>
+        <section id="location">
+            <div class="container slideInLeft wow">
+                <h2>Ubicación</h2>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Periferico Carlos Pellicer Camara 204, Tabasco 2000 Villa hermosa, Tabasco, 86035, MX.</p>
+                </div>
+                <a href="" class="button button_blue">
+                    Cómo llegar <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <iframe class="slideInRight wow"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Periferico%20Carlos%20Pellicer%20Camara%20204,%20Tabasco%202000%20Villa%20hermosa,%20Tabasco,%2086035,%20MX.+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </section>
     </main>
 

@@ -19,21 +19,21 @@
     <div include-html="header.html"></div>
     <main>
         <section id="presentation">
-            <h2>CAPACITACION EN COMPLIANCE</h2>
-            <p>Identificamos y clasificamos los riesgos operativos y legales a los que se enfrentan nuestros clientes y establecemos mecanismos internos de prevención.</p>
-            <figure>
+            <h2 class="fadeInLeft wow">CAPACITACION EN COMPLIANCE</h2>
+            <p class="fadeInLeft wow">Identificamos y clasificamos los riesgos operativos y legales a los que se enfrentan nuestros clientes y establecemos mecanismos internos de prevención.</p>
+            <figure class="fadeIn wow">
                 <img src="img/training.jpg" alt="personas en una entrevista de trabajo">
             </figure>
         </section>
         <section id="content">
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>01</p>
                 <div class="item__info">
                     <h3>¿Qué es la Capacitacion en Compliance?</h3>
                     <p>Tu equipo es el activo más importante de tu organización, por ello nuestro objetivo es generar una cultura preventiva, cultura que satisfactoriamente se consigue mediante la sensibilización y formación a cada una de las personas de tu equipo.</p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>02</p>
                 <div class="item__info">
                     <h3>Cómo podemos ayudarte</h3>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>03</p>
                 <div class="item__info">
                     <h3>Beneficios</h3>
@@ -61,11 +61,11 @@
         </section>
         <section id="cta">
 
-            <figure>
+            <figure class="slideInRight wow">
                 <img src="img/business-man-person-and-woman.jpg" alt="business man person and woman">
             </figure>
             
-            <div class="cta__copy">
+            <div class="cta__copy slideInLeft wow">
                 <h2>Asesórate con nosotros, pide más información</h2>
                 <a href="" class="button button_gold">Asesoramiento</a>
             </div>

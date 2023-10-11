@@ -21,11 +21,11 @@
         <section id="about">
             <div class="info">
                 <div>
-                    <figure>
+                    <figure class="fadeInLeft wow">
                         <img src="img/lawyer.jpg" alt="abogado firmando">
                     </figure>
 
-                    <div class="info__container">
+                    <div class="info__container fadeInRight wow">
                         <p class="quotes">“</p>
                         <h3>Somos una firma con más de 20 años de experiencia.</h3>
                         <p class="description">Ofrecemos servicios jurídicos integrales en Compliance y derecho corporativo a particulares,
@@ -35,11 +35,11 @@
                     </div>
                 </div>
                 <div>
-                    <figure>
+                    <figure class="fadeInRight wow">
                         <img src="img/businessman.jpg" alt="hombres firmando contrato">
                     </figure>
 
-                    <div class="info__container">
+                    <div class="info__container fadeInLeft wow">
                         <p class="description">Nuestra estructura compacta y esquema de servicios, nos permite ofrecer atención
                             personalizada y exclusiva, buscando siempre las mejores condiciones para nuestros clientes,
                             evitándoles desgastes, altos costos, inseguridad y métodos complejos.</p>
@@ -53,7 +53,7 @@
             </div>
         </section>
         <section id="eliseo">
-            <div class="eliseo__pic">
+            <div class="eliseo__pic fadeInLeft wow">
                 <div class="position">
                     <p>Director general</p>
                     <h3>Eliseo Gordillo Alvarez</h3>
@@ -62,7 +62,7 @@
                     <img src="img/ELISEO-GORDILLO-ALVAREZ.png" alt="Eliseo Gordillo Alvarez">
                 </figure>
             </div>
-            <div class="eliseo_academics">
+            <div class="eliseo_academics fadeInRight wow">
                 <h4>Formación Académica</h4>
                 <ul>
                     <li>Doctor en Estudios Jurídicos, por la Universidad Juárez Autónoma de Tabasco.</li>

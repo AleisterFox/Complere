@@ -19,14 +19,14 @@
     <div include-html="header.html"></div>
     <main>
         <section id="presentation">
-            <h2>SERVICIOS LEGALES</h2>
-            <p>Contamos con un equipo de profesionales con amplia trayectoria en consultoría, asesoramiento y litigios para la prevención y solución de conflictos legales, en diversas materias del derecho.</p>
-            <figure>
+            <h2 class="fadeInLeft wow">SERVICIOS LEGALES</h2>
+            <p class="fadeInLeft wow">Contamos con un equipo de profesionales con amplia trayectoria en consultoría, asesoramiento y litigios para la prevención y solución de conflictos legales, en diversas materias del derecho.</p>
+            <figure class="fadeIn wow">
                 <img src="img/services.jpg" alt="personas en capacitacion">
             </figure>
         </section>
         <section id="content">
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>01</p>
                 <div class="item__info">
                     <h3>Derecho administrativo</h3>
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>02</p>
                 <div class="item__info">
                     <h3>Derecho Penal Económico</h3>
@@ -63,7 +63,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>03</p>
                 <div class="item__info">
                     <h3>Derecho Laboral</h3>
@@ -81,7 +81,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>04</p>
                 <div class="item__info">
                     <h3>Derecho Inmobiliario</h3>
@@ -100,7 +100,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>05</p>
                 <div class="item__info">
                     <h3>Servicios notariales</h3>
@@ -117,7 +117,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="item">
+            <div class="item fadeInUp wow">
                 <p>06</p>
                 <div class="item__info">
                     <h3>Marcas y Patentes</h3>
@@ -135,11 +135,11 @@
         </section>
         <section id="cta">
 
-            <figure>
+            <figure class="slideInRight wow">
                 <img src="img/business-man-person-and-woman.jpg" alt="business man person and woman">
             </figure>
             
-            <div class="cta__copy">
+            <div class="cta__copy slideInLeft wow">
                 <h2>Asesórate con nosotros, pide más información</h2>
                 <a href="" class="button button_gold">Asesoramiento</a>
             </div>
