@@ -60,6 +60,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -278,7 +279,7 @@ header nav a {
     color: var(--gold);
     text-align: center;
     font-family: Montserrat;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 600;
 }
 
@@ -782,6 +783,247 @@ footer .policies a:hover {
     height: 1.8rem;
 }
 
+#about {
+    padding: 2rem 0;
+    padding-top: 15vh;
+}
+
+#about .info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+
+}
+
+#about .info>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 5rem;
+    row-gap: 3rem;
+    align-items: center;
+}
+
+#about .info>div:first-child {
+    align-items: flex-start;
+}
+
+#about .info figure {
+    flex-basis: 40rem;
+    flex-grow: 1;
+    max-width: 100vw;
+    height: 40rem;
+}
+
+#about .info figure img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+#about .info .info__container {
+    padding: 0 1rem;
+    flex-basis: 50rem;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+#about .info .info__container p.description {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#about .info .info__container h3 {
+    color: var(--gold);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#about .quotes {
+    width: fit-content;
+    height: fit-content;
+    max-height: 6rem;
+}
+
+#eliseo {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 5rem;
+}
+
+#eliseo>div {
+    flex-basis: 40rem;
+    flex-grow: 1;
+    column-gap: 2rem;
+}
+
+#eliseo figure {
+    width: 20rem;
+    height: 45rem;
+    flex-grow: 1;
+}
+
+#eliseo img {
+    width: 100%;
+    height: 100%;
+}
+
+#eliseo h4 {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+#eliseo .eliseo_academics p,
+#eliseo .eliseo_academics li {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+    list-style: disc;
+    margin: 1rem 0;
+}
+
+#eliseo .eliseo__pic {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 45rem; */
+    height: fit-content;
+}
+
+#eliseo .eliseo__pic .position p {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#eliseo .eliseo__pic .position h3 {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+    max-width: 20rem;
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+#eliseo .eliseo_academics {
+    padding: 1rem;
+}
+
+#presentation {
+    padding: 1rem;
+    padding-top: 15vh;
+    color: var(--dark-blue);
+}
+
+#presentation h2 {
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+#presentation p {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    width: 60rem;
+    max-width: calc(100vw - 2rem);
+}
+
+#presentation figure {
+    width: 100%;
+    height: 40rem;
+}
+
+#presentation img {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    margin: 5rem 0;
+    padding: 0 1rem;
+}
+
+#content .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    margin-bottom: 5rem;
+}
+
+#content .item>p,
+#content .item h3 {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#content .item__info {
+    max-width: 80rem;
+}
+
+#content .item__info ul {
+    list-style: disc;
+}
+
+.item__info p,
+.item__info li {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 400;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+#cta {
+    margin: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+}
+
+#cta .cta__copy h2 {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+#cta figure {
+    flex-basis: 60rem;
+    flex-grow: 1;
+}
+
+#cta figure img {
+    width: 100%;
+}
+
+#cta .cta__copy {
+    flex-basis: 45rem;
+}
+
+#cta .button:hover {
+    border: 2px solid var(--gold);
+}
+
 
 @media screen and (min-width: 769px) {
     header {
@@ -927,6 +1169,53 @@ footer .policies a:hover {
 
     #complaints>p {
         padding: 2rem 6rem;
+    }
+
+    #about {
+        padding: 6rem 8rem;
+    }
+
+    #about .info {
+        margin-top: 5rem
+    }
+
+    #about .info figure {
+        height: 60rem;
+    }
+
+    #about .info .info__container {
+        padding: 0;
+    }
+
+    #about .info>div:last-child .info__container {
+        order: -1;
+    }
+
+    #eliseo {
+        padding: 8rem;
+    }
+
+    #eliseo .eliseo_academics {
+        max-width: 55rem;
+        padding: 0;
+    }
+
+    #presentation {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    #content {
+        margin: 5rem 0;
+        padding: 0 8rem;
+    }
+
+    #cta {
+        padding: 0 8rem;
+    }
+
+    #cta .cta__copy {
+        order: -1;
     }
 
 }
