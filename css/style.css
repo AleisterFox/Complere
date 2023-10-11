@@ -298,7 +298,7 @@ header nav a {
 }
 
 #us .container figure {
-    width: 75rem;
+    width: 60%;
     max-width: 100vw;
     height: 45rem;
     margin-top: 10rem;
@@ -317,10 +317,11 @@ header nav a {
     row-gap: 3rem;
     flex-direction: column;
     justify-content: space-between;
-    width: 60rem;
+    width: 50%;
     height: fit-content;
     max-width: 100vw;
     position: absolute;
+    flex-grow: 1;
 }
 
 #us h2 {
@@ -865,8 +866,12 @@ footer .policies a:hover {
 
 #eliseo figure {
     width: 20rem;
-    height: 45rem;
+    /* max-width: 30%; */
+    min-width: 25%;
+    /* height: 45rem; */
     flex-grow: 1;
+    flex-basis: 20rem;
+    aspect-ratio: 1/1;
 }
 
 #eliseo img {
@@ -918,6 +923,7 @@ footer .policies a:hover {
 
 #eliseo .eliseo_academics {
     padding: 1rem;
+    flex-grow: 1;
 }
 
 #presentation {
@@ -945,7 +951,8 @@ footer .policies a:hover {
 
 #presentation figure {
     width: 100%;
-    height: 40rem;
+    /* height: 40rem; */
+    aspect-ratio: 3/1;
 }
 
 #presentation img {
@@ -963,6 +970,7 @@ footer .policies a:hover {
     justify-content: space-between;
     margin: 3rem 0;
     margin-bottom: 5rem;
+    column-gap: 4rem;
 }
 
 #content .item>p,
@@ -1018,6 +1026,8 @@ footer .policies a:hover {
 
 #cta .cta__copy {
     flex-basis: 45rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 #cta .button:hover {
@@ -1173,6 +1183,7 @@ footer .policies a:hover {
 
     #about {
         padding: 6rem 8rem;
+        padding-top: 15vh;
     }
 
     #about .info {
@@ -1196,7 +1207,7 @@ footer .policies a:hover {
     }
 
     #eliseo .eliseo_academics {
-        max-width: 55rem;
+        /* max-width: 55rem; */
         padding: 0;
     }
 
