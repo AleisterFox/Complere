@@ -17,6 +17,7 @@
 
 <body onload=menuDisplay()>
     <div include-html="header.html"></div>
+    <script src="js/include-html.js"></script>
     <main>
         <section id="contact" style="margin-top: 0; padding-top: 15rem;">
             <h2 class="fadeInUp wow" id="contact-page">Contáctanos</h2>

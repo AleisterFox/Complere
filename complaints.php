@@ -17,6 +17,7 @@
 
 <body onload=menuDisplay()>
     <div include-html="header.html"></div>
+    <script src="js/include-html.js"></script>
     <main>
         <section id="complaints">
             <img class="fadeIn wow" src="img/complaints.jpg" alt="Dos abogadas revisando documentos">
