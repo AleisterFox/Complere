@@ -136,7 +136,7 @@
                 <h2>Ubicación</h2>
                 <div class="address">
                     <i class="fa-solid fa-location-dot"></i>
-                    <p>Periferico Carlos Pellicer Camara 204, Tabasco 2000 Villa hermosa, Tabasco, 86035, MX.</p>
+                    <p>Periferico Carlos Pellicer Camara 204, Tabasco 2000 Villahermosa, Tabasco, 86035, MX.</p>
                 </div>
                 <a href="" class="button button_blue">
                     Cómo llegar <i class="fa-solid fa-arrow-right"></i>

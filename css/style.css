@@ -1061,6 +1061,61 @@ footer .policies a:hover {
     border: 2px solid var(--gold);
 }
 
+/* Cookies */
+
+#cookies {
+    padding-top: 15vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+#cookies ol {
+    list-style-type: lower-roman;
+}
+
+#cookies ul {
+    list-style: disc;
+}
+
+#cookies h1 {
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    color: var(--gold);
+    text-align: center;
+}
+
+#cookies h2 {
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+#cookies p,
+#cookies li {
+    color: var(--dark-blue);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+#cookies a {
+    transition: all 0.2s ease-in-out;
+    text-decoration: underline;
+}
+
+#cookies a:hover {
+    color: var(--gold);
+}
+
+/* Cookies */
 
 @media screen and (min-width: 769px) {
     header {
@@ -1259,6 +1314,11 @@ footer .policies a:hover {
 
     #cta .cta__copy {
         order: -1;
+    }
+
+    #cookies {
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
 
 }

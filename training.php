@@ -68,7 +68,7 @@
             
             <div class="cta__copy slideInLeft wow">
                 <h2>Asesórate con nosotros, pide más información</h2>
-                <a href="" class="button button_gold">Asesoramiento</a>
+                <a href="contact.php" class="button button_gold">Asesoramiento</a>
             </div>
             
         </section>
