@@ -106,7 +106,7 @@
                 <h3>Director General</h3>
                 <h2>Eliseo Gordillo Alvarez</h2>
                 <p class="quotes mini">“</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Más de 20 años de experiencia en servicios de asesoramiento, consultoría y representación en áreas jurídicas claves para la prevención de riesgos y el cumplimiento normativo de las organizaciones.</p>
                 <div><a href="" class="button button_gold">Ver más</a></div>
             </div>
         </section>
